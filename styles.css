@@ -117,10 +117,10 @@ body {
     color: var(--branco-principal);
 }
 .rodape {
-    height: 207.99px;
-    width: 1200px;
+    /*height: 207.99px;
+    width: 1200px;*/
     text-align: center;
-    margin: 0 120px 0 50px;
+    margin: 5em 3em;
 }
 
 .rodape__logo {
@@ -130,21 +130,28 @@ body {
 .rodape__lista {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    /*gap: 10px;*/ 
     list-style: none;
-    margin: 1.5em 0;
-    font-family: var(--fonte-principal);
-    font-size: 16px;
+    /*margin: 1.5em 0;*/
+    margin-top: 1em;
+    /*font-family: var(--fonte-principal);*/
+    /*font-size: 16px;*/
 }
 
-.links{
+/*.links{
     text-decoration: none;
     color: var(--branco-principal);
     font-size: 16px;
+}*/
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
 }
 
 .rodape__texto {
     margin: 1em 0;
+    color: var(--cinza-secundario); /*Só invertir a ordem das propriedades e valores.*/
     font-size: 14px;
-    color: var(--cinza-secundario);
 }
